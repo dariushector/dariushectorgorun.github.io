@@ -1,29 +1,114 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Darius — Portfolio</title>
+    <meta name="description" content="Personal portfolio of Darius Hector Gorun — projects, experience, and progress.">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header id="home">
+        <nav aria-label="Primary">
+            <a href="#home" class="logo">darius</a>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#experience">Experience</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
 
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Home</title>
-        <meta name="description" content="A home page that is well built.">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
-    </head>
-    <body>
-        <header>
-            <nav>
-                <a href="#about"> About </a>
-                <a href="#projects"> Projects </a>
-                <a href="#contact"> Contact </a>
-            </nav>
-            <h1>darius</h1>
-            <p>Hello! My name is Darius! This will be my portfolio website where I can monitor my progress and overall show off my achievements.</p>
-        </header>
-        
-        <main>
-            
-        </main>
-        
-        <script src="" async defer></script>
-    </body>
+        <div class="hero">
+            <div class="hero-top">
+                <img src="assets/profile.jpg" alt="Darius Hector Gorun" class="avatar">
+                <div>
+                    <h1>Darius Hector Gorun</h1>
+                    <p class="subtitle">Developer &bull; Building projects &amp; tracking progress</p>
+                </div>
+            </div>
+            <p class="lead">
+                Hello! My name is Darius! This will be my portfolio website where I can
+                monitor my progress and overall show off my achievements.
+            </p>
+        </div>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About</h2>
+            <p>
+                I enjoy learning how software works from the ground up and building
+                practical projects along the way. Right now I am focused on sharpening
+                my fundamentals in C++, web development (HTML &amp; CSS), and version
+                control with Git.
+            </p>
+        </section>
+
+        <section id="experience">
+            <h2>Experience &amp; Skills</h2>
+            <div class="card">
+                <div class="card-header">
+                    <h3>Independent Learning &amp; Projects</h3>
+                    <span class="meta">2026 &ndash; Present</span>
+                </div>
+                <p>
+                    Building small applications, practicing problem-solving in C++, and
+                    creating this personal site to document my growth and finished work.
+                </p>
+                <ul class="tech-tags">
+                    <li>C++</li>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>Git &amp; GitHub</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <article class="card project-card">
+                    <h3>Portfolio Website</h3>
+                    <p>
+                        My personal corner on the web built from scratch with semantic HTML
+                        and a minimal black desktop-inspired CSS theme.
+                    </p>
+                    <ul class="tech-tags">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>GitHub Pages</li>
+                    </ul>
+                    <a href="https://github.com/dariushectorgorun/dariushectorgorun.github.io" class="btn" target="_blank" rel="noopener noreferrer">View Code &rarr;</a>
+                </article>
+
+                <article class="card project-card">
+                    <h3>Next Project (Coming Soon)</h3>
+                    <p>
+                        Space reserved for my next C++ or web project. Replace this card
+                        with a link and summary once it's ready.
+                    </p>
+                    <ul class="tech-tags">
+                        <li>C++</li>
+                        <li>CLI</li>
+                    </ul>
+                    <a href="https://github.com/dariushectorgorun" class="btn" target="_blank" rel="noopener noreferrer">GitHub Profile &rarr;</a>
+                </article>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Want to connect or follow what I'm building?</p>
+            <div class="contact-links">
+                <a href="https://github.com/dariushectorgorun" class="btn" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a href="mailto:your-email@example.com" class="btn">Email</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Darius Hector Gorun</p>
+    </footer>
+</body>
 </html>
